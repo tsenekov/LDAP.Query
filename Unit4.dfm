@@ -63,8 +63,8 @@ object frmMain: TfrmMain
       Align = alClient
       Lines.Strings = (
         
-          'SELECT CN,msExchHomeServerName FROM '#39'LDAP://OU=Users,OU=NetGenIT' +
-          ',DC=netgenit,DC=local'#39' WHERE objectClass='#39'User'#39' AND '
+          'SELECT CN,msExchHomeServerName FROM '#39'LDAP://OU=Users,OU=NetworkIT' +
+          ',DC=netunit,DC=local'#39' WHERE objectClass='#39'User'#39' AND '
         'UserAccountControl <> 514')
       TabOrder = 1
       ExplicitWidth = 668
